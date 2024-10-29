@@ -17,4 +17,4 @@ const HeaderComponent = ({
 
 export default HeaderComponent
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({ })
