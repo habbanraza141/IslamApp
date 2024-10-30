@@ -39,28 +39,25 @@ const PreviewLayout = ({
     </View>
   </View>
 );
-
-function AllCategories() {
+function Fiqh() {
   const [flexDirection, setflexDirection] = useState('column');
 
   return (
     <BackgroundContainer>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <HeaderComponent hdrText={'Categories'} />
-
-
-        <PreviewLayout 
-          values={['Fiqh',
-            'Tafseer',
-            'Aqaid',
-            'Kalam',
-            'Tassawuf',
-            'Hikayat',
-            'Hadees',
-            'Wazaif',
-            'Seerat',
-            'Karamaat',
-            'Duaen',
+        <HeaderComponent hdrText={'Fiqh'} />
+        <PreviewLayout
+          values={['Taharat',
+            'Namaz',
+            'Roza',
+            'Zakat',
+            'Hajj',
+            'Wirasat',
+            'Nikaah',
+            'Talaq',
+            'Tijarat',
+            'Ijaraat',
+            'Usool',
           'All']}
           selectedValue={flexDirection}
           setSelectedValue={setflexDirection}>
@@ -181,7 +178,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#fff',
     marginHorizontal: '1%',
-    marginTop: 0,
     marginBottom: 16,
     minWidth: '23%',
     textAlign: 'center',
@@ -205,4 +201,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AllCategories;
+export default Fiqh;

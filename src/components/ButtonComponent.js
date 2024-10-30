@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     justifyContent: 'center',
     shadowColor: "#000000",
-shadowOffset: {
-  width: 3,
-  height: 3,
-},
-shadowOpacity:  0.20,
-shadowRadius: 40,
-elevation: 6
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity:  0.24,
+    shadowRadius: 1.384,
+    elevation: 1.7
   },
 
   btnTextStyle: {
